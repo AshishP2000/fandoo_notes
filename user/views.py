@@ -3,14 +3,11 @@ from django.shortcuts import render
 # Create your views here.
 import logging
 
-from django.conf import settings
 from django.contrib.auth import authenticate
-from django.core.mail import send_mail
 from rest_framework import status
 from rest_framework.response import Response
-from rest_framework.reverse import reverse
 from rest_framework.views import APIView
-
+from .tasks import add_func
 from .models import User
 from .serilizers import UserSerializer
 from .utils import JWT
@@ -30,21 +27,18 @@ class UserRegister(APIView):
             serializer = UserSerializer(data=request.data)
             serializer.is_valid(raise_exception=True)
             serializer.save()
-            token = JWT().encode({'user_id': serializer.data.get('id')})
-            send_mail(
-                'fundoo notes',
-                settings.BASE_URL + reverse('verify', kwargs={'token': token}),
-                settings.EMAIL_HOST_USER,
-                [serializer.data.get('email')]
-            )
+            add_func(serializer)
             return Response({'message': 'user is registered', 'status': 201, 'data': serializer.data},
                             status=status.HTTP_201_CREATED)
+        except TypeError as ex:
+            logging.exception(ex)
+            return Response({'message': str(ex), 'status': 400, 'data': {}}, status=status.HTTP_400_BAD_REQUEST)
         except KeyError as ex:
             logging.exception(ex)
             return Response({'message': str(ex), 'status': 400, 'data': {}}, status=status.HTTP_400_BAD_REQUEST)
         except Exception as ex:
             logging.exception(ex)
-            return Response({'message': str(ex)})
+            return Response({'message': str(ex), 'status': 400, 'data': {}}, status=status.HTTP_400_BAD_REQUEST)
 
 
 class UserLogin(APIView):

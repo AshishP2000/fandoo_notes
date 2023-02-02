@@ -8,7 +8,6 @@ from note.models import Notes, Labels
 from note.redis_note import RedisNote
 from note.serializers import NoteSerializer, CollaboratorSerializer, LabelNoteSerializer, LabelSerializer
 from user.utils import verify_user
-
 logging.basicConfig(filename='fundoo_notes.log', level=logging.INFO)
 
 

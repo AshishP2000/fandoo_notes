@@ -1,0 +1,107 @@
+ERROR:root:unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\redis_service.py", line 19, in getter
+    return redis_client.get(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'dict'
+ERROR:root:unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\redis_service.py", line 19, in getter
+    return redis_client.get(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'dict'
+ERROR:root:unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\redis_service.py", line 19, in getter
+    return redis_client.get(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'dict'
+ERROR:root:unhashable type: 'dict'
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\redis_service.py", line 19, in getter
+    return redis_client.get(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'dict'
+ERROR:root:getaddrinfo() argument 1 must be string or None
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\redis_service.py", line 19, in getter
+    return redis_client.get(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\commands\core.py", line 1790, in get
+    return self.execute_command("GET", name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\client.py", line 1255, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\connection.py", line 1427, in get_connection
+    connection.connect()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\connection.py", line 624, in connect
+    sock = self.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+           ^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\connection.py", line 625, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\connection.py", line 658, in _connect
+    for res in socket.getaddrinfo(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\socket.py", line 961, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: getaddrinfo() argument 1 must be string or None
+ERROR:root:Invalid input of type: 'dict'. Convert to a bytes, string, int or float first.
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\redis_service.py", line 19, in getter
+    return redis_client.get(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\commands\core.py", line 1790, in get
+    return self.execute_command("GET", name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\client.py", line 1258, in execute_command
+    return conn.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+           ^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\client.py", line 1259, in <lambda>
+    lambda: self._send_command_parse_response(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\client.py", line 1234, in _send_command_parse_response
+    conn.send_command(*args)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\connection.py", line 825, in send_command
+    self.pack_command(*args), check_health=kwargs.get("check_health", True)
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\connection.py", line 884, in pack_command
+    for arg in map(self.encoder.encode, args):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\connection.py", line 107, in encode
+    raise DataError(
+redis.exceptions.DataError: Invalid input of type: 'dict'. Convert to a bytes, string, int or float first.
+ERROR:root:Invalid input of type: 'dict'. Convert to a bytes, string, int or float first.
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\redis_service.py", line 19, in getter
+    return redis_client.get(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\commands\core.py", line 1790, in get
+    return self.execute_command("GET", name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\client.py", line 1258, in execute_command
+    return conn.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+           ^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\client.py", line 1259, in <lambda>
+    lambda: self._send_command_parse_response(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\client.py", line 1234, in _send_command_parse_response
+    conn.send_command(*args)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\connection.py", line 825, in send_command
+    self.pack_command(*args), check_health=kwargs.get("check_health", True)
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\connection.py", line 884, in pack_command
+    for arg in map(self.encoder.encode, args):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\redis\connection.py", line 107, in encode
+    raise DataError(
+redis.exceptions.DataError: Invalid input of type: 'dict'. Convert to a bytes, string, int or float first.

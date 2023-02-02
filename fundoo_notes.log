@@ -1,0 +1,1991 @@
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\fundoo_notes\settings.py changed, reloading.
+ERROR:root:UserManager.create_user() missing 1 required positional argument: 'username'
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\views.py", line 32, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\serilizers.py", line 14, in create
+    return User.objects.create_user(**validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: UserManager.create_user() missing 1 required positional argument: 'username'
+ERROR:root:UserManager.create_user() missing 1 required positional argument: 'username'
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\views.py", line 32, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\serilizers.py", line 14, in create
+    return User.objects.create_user(**validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: UserManager.create_user() missing 1 required positional argument: 'username'
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\views.py changed, reloading.
+ERROR:root:UserManager.create_user() missing 1 required positional argument: 'username'
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\views.py", line 32, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\serilizers.py", line 14, in create
+    return User.objects.create_user(**validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: UserManager.create_user() missing 1 required positional argument: 'username'
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\views.py changed, reloading.
+ERROR:root:UserManager.create_user() missing 1 required positional argument: 'username'
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\views.py", line 32, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\serilizers.py", line 14, in create
+    return User.objects.create_user(**validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: UserManager.create_user() missing 1 required positional argument: 'username'
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\views.py changed, reloading.
+ERROR:root:UserManager.create_user() missing 1 required positional argument: 'username'
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\views.py", line 33, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\serilizers.py", line 14, in create
+    return User.objects.create_user(**validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: UserManager.create_user() missing 1 required positional argument: 'username'
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\views.py changed, reloading.
+ERROR:root:UserManager.create_user() missing 1 required positional argument: 'username'
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\views.py", line 32, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\serilizers.py", line 14, in create
+    return User.objects.create_user(**validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: UserManager.create_user() missing 1 required positional argument: 'username'
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\views.py changed, reloading.
+ERROR:root:UserManager.create_user() missing 1 required positional argument: 'username'
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\views.py", line 32, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\serilizers.py", line 14, in create
+    return User.objects.create_user(**validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: UserManager.create_user() missing 1 required positional argument: 'username'
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\views.py changed, reloading.
+ERROR:root:UserManager.create_user() missing 1 required positional argument: 'username'
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\views.py", line 32, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\serilizers.py", line 14, in create
+    return User.objects.create_user(**validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: UserManager.create_user() missing 1 required positional argument: 'username'
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\views.py changed, reloading.
+ERROR:root:You cannot call `.save()` after accessing `serializer.data`.If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. 
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\views.py", line 33, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 198, in save
+    assert not hasattr(self, '_data'), (
+AssertionError: You cannot call `.save()` after accessing `serializer.data`.If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. 
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\venv\Lib\site-packages\django\contrib\auth\models.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\venv\Lib\site-packages\django\contrib\auth\models.py changed, reloading.
+ERROR:root:(550, b'5.4.5 Daily user sending quota exceeded. g5-20020a056a00078500b0058d8db0e4adsm7117696pfu.171 - gsmtp')
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\views.py", line 34, in post
+    send_mail(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\mail\__init__.py", line 87, in send_mail
+    return mail.send()
+           ^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\mail\message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\mail\backends\smtp.py", line 131, in send_messages
+    sent = self._send(message)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\mail\backends\smtp.py", line 149, in _send
+    self.connection.sendmail(
+  File "C:\Python311\Lib\smtplib.py", line 902, in sendmail
+    (code, resp) = self.data(msg)
+                   ^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\smtplib.py", line 571, in data
+    raise SMTPDataError(code, repl)
+smtplib.SMTPDataError: (550, b'5.4.5 Daily user sending quota exceeded. g5-20020a056a00078500b0058d8db0e4adsm7117696pfu.171 - gsmtp')
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\fundoo_notes\urls.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\serializers.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\serializers.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\serializers.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\serializers.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\serializers.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+ERROR:root:null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (1, something, hi to everyone, null).
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (1, something, hi to everyone, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 24, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (1, something, hi to everyone, null).
+
+WARNING:django.request:Bad Request: /note/note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+ERROR:root:null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (2, something, hi to everyone, null).
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (2, something, hi to everyone, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 27, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (2, something, hi to everyone, null).
+
+WARNING:django.request:Bad Request: /note/note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\utils.py changed, reloading.
+ERROR:root:null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (3, something, hi to everyone, null).
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (3, something, hi to everyone, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 27, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (3, something, hi to everyone, null).
+
+WARNING:django.request:Bad Request: /note/note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\utils.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\utils.py changed, reloading.
+ERROR:root:null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (4, something, hi to everyone, null).
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (4, something, hi to everyone, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 27, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (4, something, hi to everyone, null).
+
+WARNING:django.request:Bad Request: /note/note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\utils.py changed, reloading.
+ERROR:django.request:Internal Server Error: /note/note
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 45, in wrapper
+    user = get_user(request)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 37, in get_user
+    print(u.objects.all())
+          ^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'objects'
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\utils.py changed, reloading.
+ERROR:root:null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (5, something, hi to everyone, null).
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (5, something, hi to everyone, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 27, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (5, something, hi to everyone, null).
+
+WARNING:django.request:Bad Request: /note/note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\utils.py changed, reloading.
+ERROR:root:null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (6, something, hi to everyone, null).
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (6, something, hi to everyone, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 27, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (6, something, hi to everyone, null).
+
+WARNING:django.request:Bad Request: /note/note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\utils.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\utils.py changed, reloading.
+ERROR:root:null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (7, something, hi to everyone, null).
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (7, something, hi to everyone, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 25, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (7, something, hi to everyone, null).
+
+WARNING:django.request:Bad Request: /note/note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\utils.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\utils.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+ERROR:root:null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (8, something, hi to everyone, null).
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (8, something, hi to everyone, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 26, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (8, something, hi to everyone, null).
+
+WARNING:django.request:Bad Request: /note/note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+ERROR:root:null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (9, something, hi to everyone, null).
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (9, something, hi to everyone, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 27, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (9, something, hi to everyone, null).
+
+WARNING:django.request:Bad Request: /note/note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+ERROR:root:null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (10, something, hi to everyone, null).
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (10, something, hi to everyone, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 27, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (10, something, hi to everyone, null).
+
+WARNING:django.request:Bad Request: /note/note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+ERROR:root:null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (11, something, hi to everyone, null).
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (11, something, hi to everyone, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 28, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (11, something, hi to everyone, null).
+
+WARNING:django.request:Bad Request: /note/note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\serializers.py changed, reloading.
+ERROR:root:null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (12, something, hi to everyone, null).
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (12, something, hi to everyone, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 28, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (12, something, hi to everyone, null).
+
+WARNING:django.request:Bad Request: /note/note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+ERROR:root:null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (13, something, hi to everyone, null).
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (13, something, hi to everyone, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 28, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (13, something, hi to everyone, null).
+
+WARNING:django.request:Bad Request: /note/note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+ERROR:root:null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (14, something, hi to everyone, null).
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (14, something, hi to everyone, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 28, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (14, something, hi to everyone, null).
+
+WARNING:django.request:Bad Request: /note/note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\serilizers.py changed, reloading.
+ERROR:root:null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (15, something, hi to everyone, null).
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (15, something, hi to everyone, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 25, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (15, something, hi to everyone, null).
+
+WARNING:django.request:Bad Request: /note/note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\serializers.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\serializers.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\serializers.py changed, reloading.
+ERROR:root:null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (16, something, hi to everyone, null).
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (16, something, hi to everyone, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 25, in post
+    serializer.save()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "user_id" of relation "note_notes" violates not-null constraint
+DETAIL:  Failing row contains (16, something, hi to everyone, null).
+
+WARNING:django.request:Bad Request: /note/note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\models.py changed, reloading.
+ERROR:root:Invalid token type. Token must be a <class 'bytes'>
+ERROR:django.request:Internal Server Error: /note/note
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 51, in wrapper
+    user = get_user(request)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 36, in get_user
+    user = User.objects.get(id=decode_token.get('user_id'))
+                               ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR:root:Notes matching query does not exist.
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 68, in delete
+    note_object = Notes.objects.get(id=request.data.get('id'), user=request.data.get('user'))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+note.models.Notes.DoesNotExist: Notes matching query does not exist.
+WARNING:django.request:Bad Request: /note/note
+ERROR:django.request:Internal Server Error: /note/note
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\utils.py", line 23, in decode
+    return jwt.decode(token, "secret", algorithms=["HS256"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 168, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 136, in decode_complete
+    self._validate_claims(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 199, in _validate_claims
+    self._validate_exp(payload, now, leeway)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 237, in _validate_exp
+    raise ExpiredSignatureError("Signature has expired")
+jwt.exceptions.ExpiredSignatureError: Signature has expired
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 51, in wrapper
+    user = get_user(request)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 34, in get_user
+    decode_token = JWT().decode(token)
+                   ^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 25, in decode
+    raise Exception("token expired")
+Exception: token expired
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /note/note
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\utils.py", line 23, in decode
+    return jwt.decode(token, "secret", algorithms=["HS256"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 168, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 120, in decode_complete
+    decoded = api_jws.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jws.py", line 202, in decode_complete
+    self._verify_signature(signing_input, header, signature, key, algorithms)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jws.py", line 301, in _verify_signature
+    raise InvalidSignatureError("Signature verification failed")
+jwt.exceptions.InvalidSignatureError: Signature verification failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 51, in wrapper
+    user = get_user(request)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 34, in get_user
+    decode_token = JWT().decode(token)
+                   ^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 27, in decode
+    raise Exception("invalid token")
+Exception: invalid token
+ERROR:root:RedisNote.get_note() got an unexpected keyword argument 'user'
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 42, in get
+    get_data = RedisNote().get_note(user=request.data.get("user"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: RedisNote.get_note() got an unexpected keyword argument 'user'
+WARNING:django.request:Bad Request: /note/note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_service.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\fundoo_notes\settings.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\fundoo_notes\settings.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\serializers.py changed, reloading.
+ERROR:django.request:Internal Server Error: /note/note
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\utils.py", line 23, in decode
+    return jwt.decode(token, "secret", algorithms=["HS256"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 168, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 136, in decode_complete
+    self._validate_claims(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 199, in _validate_claims
+    self._validate_exp(payload, now, leeway)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 237, in _validate_exp
+    raise ExpiredSignatureError("Signature has expired")
+jwt.exceptions.ExpiredSignatureError: Signature has expired
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 45, in wrapper
+    user = get_user(request)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 35, in get_user
+    decode_token = JWT().decode(token)
+                   ^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 25, in decode
+    raise Exception("token expired")
+Exception: token expired
+ERROR:django.request:Internal Server Error: /note/collaborator
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/note/collaborator/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\urls.py changed, reloading.
+ERROR:root:{'collaborator': [ErrorDetail(string='Expected a list of items but got type "int".', code='not_a_list')]}
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 92, in post
+    serializer.is_valid(raise_exception=True)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'collaborator': [ErrorDetail(string='Expected a list of items but got type "int".', code='not_a_list')]}
+WARNING:django.request:Bad Request: /note/collaborator
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+ERROR:root:django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager.remove() argument after * must be an iterable, not NoneType
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 104, in delete
+    note.collaborator.remove(*request.data.get('collaborator'))
+TypeError: django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager.remove() argument after * must be an iterable, not NoneType
+WARNING:django.request:Bad Request: /note/collaborator
+WARNING:django.request:Not Found: /user/label_note
+ERROR:root:Notes matching query does not exist.
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 181, in post
+    note = Notes.objects.get(id=request.data.get('id'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+note.models.Notes.DoesNotExist: Notes matching query does not exist.
+WARNING:django.request:Bad Request: /note/label_note
+ERROR:root:Notes matching query does not exist.
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 181, in post
+    note = Notes.objects.get(id=request.data.get('id'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+note.models.Notes.DoesNotExist: Notes matching query does not exist.
+WARNING:django.request:Bad Request: /note/label_note
+ERROR:root:{'label': [ErrorDetail(string='This field is required.', code='required')]}
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 183, in post
+    serializer.is_valid(raise_exception=True)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'label': [ErrorDetail(string='This field is required.', code='required')]}
+WARNING:django.request:Bad Request: /note/label_note
+ERROR:root:Notes matching query does not exist.
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 181, in post
+    note = Notes.objects.get(id=request.data.get('id'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+note.models.Notes.DoesNotExist: Notes matching query does not exist.
+WARNING:django.request:Bad Request: /note/label_note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\models.py changed, reloading.
+ERROR:root:{'label': [ErrorDetail(string='Expected a list of items but got type "int".', code='not_a_list')]}
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 183, in post
+    serializer.is_valid(raise_exception=True)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'label': [ErrorDetail(string='Expected a list of items but got type "int".', code='not_a_list')]}
+WARNING:django.request:Bad Request: /note/label_note
+WARNING:django.request:Not Found: /user/note
+WARNING:django.request:Not Found: /note/user
+WARNING:django.request:Not Found: /note/user_login
+ERROR:django.request:Internal Server Error: /note/label
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\utils.py", line 23, in decode
+    return jwt.decode(token, "secret", algorithms=["HS256"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 168, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 136, in decode_complete
+    self._validate_claims(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 199, in _validate_claims
+    self._validate_exp(payload, now, leeway)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 237, in _validate_exp
+    raise ExpiredSignatureError("Signature has expired")
+jwt.exceptions.ExpiredSignatureError: Signature has expired
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 45, in wrapper
+    user = get_user(request)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 35, in get_user
+    decode_token = JWT().decode(token)
+                   ^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 25, in decode
+    raise Exception("token expired")
+Exception: token expired
+ERROR:django.request:Internal Server Error: /note/label_note
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\utils.py", line 23, in decode
+    return jwt.decode(token, "secret", algorithms=["HS256"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 168, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 136, in decode_complete
+    self._validate_claims(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 199, in _validate_claims
+    self._validate_exp(payload, now, leeway)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 237, in _validate_exp
+    raise ExpiredSignatureError("Signature has expired")
+jwt.exceptions.ExpiredSignatureError: Signature has expired
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 45, in wrapper
+    user = get_user(request)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 35, in get_user
+    decode_token = JWT().decode(token)
+                   ^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 25, in decode
+    raise Exception("token expired")
+Exception: token expired
+ERROR:root:Notes matching query does not exist.
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 181, in post
+    note = Notes.objects.get(id=request.data.get('id'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+note.models.Notes.DoesNotExist: Notes matching query does not exist.
+WARNING:django.request:Bad Request: /note/label_note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_service.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+ERROR:root:'dict' object has no attribute 'set'
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\redis_service.py", line 29, in setter
+    return redis_client.set(key, value)
+           ^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'set'
+ERROR:root:Unable to set data to redis server
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\redis_service.py", line 29, in setter
+    return redis_client.set(key, value)
+           ^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'set'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 26, in post
+    RedisNote().save(serializer.data, request.data.get('user'))
+  File "D:\Project\fandoo_notes\note\redis_note.py", line 15, in save
+    self.redis.setter(user_id, json.dumps(note_dict))
+  File "D:\Project\fandoo_notes\note\redis_service.py", line 32, in setter
+    raise Exception("Unable to set data to redis server")
+Exception: Unable to set data to redis server
+WARNING:django.request:Bad Request: /note/note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+ERROR:root:'dict' object has no attribute 'set'
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\redis_service.py", line 29, in setter
+    return redis_client.set(key, value)
+           ^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'set'
+ERROR:root:Unable to set data to redis server
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\redis_service.py", line 29, in setter
+    return redis_client.set(key, value)
+           ^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'set'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\note\views.py", line 26, in post
+    RedisNote().save(serializer.data, request.data.get('user'))
+  File "D:\Project\fandoo_notes\note\redis_note.py", line 15, in save
+    self.redis.setter(user_id, json.dumps(note_dict))
+  File "D:\Project\fandoo_notes\note\redis_service.py", line 32, in setter
+    raise Exception("Unable to set data to redis server")
+Exception: Unable to set data to redis server
+WARNING:django.request:Bad Request: /note/note
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_service.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_service.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_service.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_service.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_service.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_service.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_service.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_service.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_service.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_service.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_service.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_service.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_service.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\note\redis_note.py changed, reloading.
+ERROR:django.request:Internal Server Error: /note/note
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\utils.py", line 23, in decode
+    return jwt.decode(token, "secret", algorithms=["HS256"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 168, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 136, in decode_complete
+    self._validate_claims(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 199, in _validate_claims
+    self._validate_exp(payload, now, leeway)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 237, in _validate_exp
+    raise ExpiredSignatureError("Signature has expired")
+jwt.exceptions.ExpiredSignatureError: Signature has expired
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 45, in wrapper
+    user = get_user(request)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 35, in get_user
+    decode_token = JWT().decode(token)
+                   ^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 25, in decode
+    raise Exception("token expired")
+Exception: token expired
+ERROR:django.request:Internal Server Error: /note/note
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\utils.py", line 23, in decode
+    return jwt.decode(token, "secret", algorithms=["HS256"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 168, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 136, in decode_complete
+    self._validate_claims(
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 199, in _validate_claims
+    self._validate_exp(payload, now, leeway)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\jwt\api_jwt.py", line 237, in _validate_exp
+    raise ExpiredSignatureError("Signature has expired")
+jwt.exceptions.ExpiredSignatureError: Signature has expired
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 45, in wrapper
+    user = get_user(request)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 35, in get_user
+    decode_token = JWT().decode(token)
+                   ^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\user\utils.py", line 25, in decode
+    raise Exception("token expired")
+Exception: token expired

@@ -27,7 +27,8 @@ class UserRegister(APIView):
             serializer = UserSerializer(data=request.data)
             serializer.is_valid(raise_exception=True)
             serializer.save()
-            add_func(serializer)
+            token = JWT().encode({'user_id': serializer.data.get('id')})
+            add_func.delay(token, serializer.data)
             return Response({'message': 'user is registered', 'status': 201, 'data': serializer.data},
                             status=status.HTTP_201_CREATED)
         except TypeError as ex:

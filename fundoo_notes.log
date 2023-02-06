@@ -2707,3 +2707,284 @@ Traceback (most recent call last):
     raise ValidationError(self.errors)
 rest_framework.exceptions.ValidationError: {'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
 INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\tasks.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\fundoo_notes\settings.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\fundoo_notes\settings.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\views.py changed, reloading.
+ERROR:root:Object of type UserSerializer is not JSON serializable
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\serialization.py", line 39, in _reraise_errors
+    yield
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\serialization.py", line 210, in dumps
+    payload = encoder(data)
+              ^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\utils\json.py", line 68, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\utils\json.py", line 58, in default
+    return super().default(o)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UserSerializer is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\views.py", line 30, in post
+    add_func.delay(serializer)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\celery\app\task.py", line 425, in delay
+    return self.apply_async(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\celery\app\task.py", line 575, in apply_async
+    return app.send_task(
+           ^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\celery\app\base.py", line 788, in send_task
+    amqp.send_task_message(P, name, message, **options)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\celery\app\amqp.py", line 510, in send_task_message
+    ret = producer.publish(
+          ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\messaging.py", line 166, in publish
+    body, content_type, content_encoding = self._prepare(
+                                           ^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\messaging.py", line 254, in _prepare
+    body) = dumps(body, serializer=serializer)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\serialization.py", line 209, in dumps
+    with _reraise_errors(EncodeError):
+  File "C:\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\serialization.py", line 43, in _reraise_errors
+    reraise(wrapper, wrapper(exc), sys.exc_info()[2])
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\exceptions.py", line 21, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\serialization.py", line 39, in _reraise_errors
+    yield
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\serialization.py", line 210, in dumps
+    payload = encoder(data)
+              ^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\utils\json.py", line 68, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\utils\json.py", line 58, in default
+    return super().default(o)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+kombu.exceptions.EncodeError: Object of type UserSerializer is not JSON serializable
+WARNING:django.request:Bad Request: /user/user_register
+ERROR:root:Object of type UserSerializer is not JSON serializable
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\serialization.py", line 39, in _reraise_errors
+    yield
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\serialization.py", line 210, in dumps
+    payload = encoder(data)
+              ^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\utils\json.py", line 68, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\utils\json.py", line 58, in default
+    return super().default(o)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UserSerializer is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\views.py", line 30, in post
+    add_func.delay(serializer)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\celery\app\task.py", line 425, in delay
+    return self.apply_async(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\celery\app\task.py", line 575, in apply_async
+    return app.send_task(
+           ^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\celery\app\base.py", line 788, in send_task
+    amqp.send_task_message(P, name, message, **options)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\celery\app\amqp.py", line 510, in send_task_message
+    ret = producer.publish(
+          ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\messaging.py", line 166, in publish
+    body, content_type, content_encoding = self._prepare(
+                                           ^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\messaging.py", line 254, in _prepare
+    body) = dumps(body, serializer=serializer)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\serialization.py", line 209, in dumps
+    with _reraise_errors(EncodeError):
+  File "C:\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\serialization.py", line 43, in _reraise_errors
+    reraise(wrapper, wrapper(exc), sys.exc_info()[2])
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\exceptions.py", line 21, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\serialization.py", line 39, in _reraise_errors
+    yield
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\serialization.py", line 210, in dumps
+    payload = encoder(data)
+              ^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\utils\json.py", line 68, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\utils\json.py", line 58, in default
+    return super().default(o)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+kombu.exceptions.EncodeError: Object of type UserSerializer is not JSON serializable
+WARNING:django.request:Bad Request: /user/user_register
+ERROR:root:{'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\views.py", line 28, in post
+    serializer.is_valid(raise_exception=True)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}
+WARNING:django.request:Bad Request: /user/user_register
+ERROR:root:Object of type UserSerializer is not JSON serializable
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\serialization.py", line 39, in _reraise_errors
+    yield
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\serialization.py", line 210, in dumps
+    payload = encoder(data)
+              ^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\utils\json.py", line 68, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\utils\json.py", line 58, in default
+    return super().default(o)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UserSerializer is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\views.py", line 30, in post
+    add_func.delay(serializer)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\celery\app\task.py", line 425, in delay
+    return self.apply_async(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\celery\app\task.py", line 575, in apply_async
+    return app.send_task(
+           ^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\celery\app\base.py", line 788, in send_task
+    amqp.send_task_message(P, name, message, **options)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\celery\app\amqp.py", line 510, in send_task_message
+    ret = producer.publish(
+          ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\messaging.py", line 166, in publish
+    body, content_type, content_encoding = self._prepare(
+                                           ^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\messaging.py", line 254, in _prepare
+    body) = dumps(body, serializer=serializer)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\serialization.py", line 209, in dumps
+    with _reraise_errors(EncodeError):
+  File "C:\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\serialization.py", line 43, in _reraise_errors
+    reraise(wrapper, wrapper(exc), sys.exc_info()[2])
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\exceptions.py", line 21, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\serialization.py", line 39, in _reraise_errors
+    yield
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\serialization.py", line 210, in dumps
+    payload = encoder(data)
+              ^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\utils\json.py", line 68, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\kombu\utils\json.py", line 58, in default
+    return super().default(o)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+kombu.exceptions.EncodeError: Object of type UserSerializer is not JSON serializable
+WARNING:django.request:Bad Request: /user/user_register
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\tasks.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\tasks.py changed, reloading.
+ERROR:root:add_func() missing 2 required positional arguments: 'a' and 'b'
+Traceback (most recent call last):
+  File "D:\Project\fandoo_notes\user\views.py", line 30, in post
+    add_func.delay()
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\celery\app\task.py", line 425, in delay
+    return self.apply_async(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\fandoo_notes\venv\Lib\site-packages\celery\app\task.py", line 540, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: add_func() missing 2 required positional arguments: 'a' and 'b'
+WARNING:django.request:Bad Request: /user/user_register
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\tasks.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\tasks.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\tasks.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\tasks.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\tasks.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\tasks.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\tasks.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\tasks.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\tasks.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\tasks.py changed, reloading.
+INFO:django.utils.autoreload:D:\Project\fandoo_notes\user\tasks.py changed, reloading.
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Method Not Allowed: /user/user_login

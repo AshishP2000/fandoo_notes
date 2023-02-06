@@ -7,11 +7,10 @@ from user.utils import JWT
 
 
 @shared_task
-def add_func(serializer):
-    token = JWT().encode({'user_id': serializer.data.get('id')})
+def add_func(token, data):
     send_mail(
         'fundoo notes',
         settings.BASE_URL + reverse('verify', kwargs={'token': token}),
         settings.EMAIL_HOST_USER,
-        [serializer.data.get('email')]
+        [data.get('email')]
     )
